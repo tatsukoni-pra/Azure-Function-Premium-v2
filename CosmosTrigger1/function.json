@@ -8,7 +8,8 @@
       "connectionStringSetting": "cosmosdbtatsukonitestv2_DOCUMENTDB",
       "databaseName": "TatsukoniTest2",
       "collectionName": "tatsukoni-test-2",
-      "createLeaseCollectionIfNotExists": true
+      "createLeaseCollectionIfNotExists": true,
+      "MaxItemsPerInvocation": 100
     }
   ],
   "scriptFile": "../dist/CosmosTrigger1/index.js"
